@@ -109,7 +109,7 @@ color: #ff9a2d;
 	margin: 0;
 }
 #container_info {
-	background-image: url(img/abstract2.jpg);
+	background-image: url(../img/abstract2.jpg);
 	background-position: center center;
 	background-size: cover;
 	/*height: 200px;*/
