@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background:
+    url('http://www.eduportal44.ru/Kostroma_EDU/mdou100/SiteAssets/DocLib14/Домашняя/Трава.png'), 
+    url('https://fc.vseosvita.ua/002te9-adc7/002.png'),
+    url('http://pngimg.com/uploads/sun/sun_PNG13449.png') ,
+    url("http://s.tcdn.co/d0c/db5/d0cdb5e8-5a5e-37f8-8474-64cfc785b603/1.png") ,
+    #f5fcff;
+    background-repeat: repeat-x, repeat-x, no-repeat, no-repeat;
+    background-position: bottom, 0 50px, top right, bottom center;
+    background-size: auto 150px, auto 200px, auto, auto 500px;
+
+}

@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font: 400 19px/24px;
+	color:  #ff8400;
+	font-family: 'Pacifico', cursive;
+}
+
+.header {
+	background-image: url(img/fon-light.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.header_title {
+	text-align: center;
+}
+.header_title p {
+	font-size: 24pt;
+	margin: 0;
+	padding: 30px;
+}
+
+.container_case_gallery {
+	background-image: url(img/abstract2.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.gallery_img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding-top: 20px;
+}
+
+.layout {
+	grid-column: 1 / 6;
+}
+

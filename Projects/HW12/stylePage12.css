@@ -1,0 +1,220 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #141b23;
+	font: 400 18px/24px 'Arial', sans-serif;
+	color:  #cfcfcf;
+}
+
+.wrapper {
+	width: 892px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 41px;
+}
+
+.nav {
+	padding-top: 8px;
+	float: left;
+}
+
+.nav a {
+	display: inline-block;
+	margin: 0;
+	text-decoration: none;
+	color: #ffff78;
+	text-decoration: underline;
+	padding-right: 54px;
+}
+
+.logo {
+	display: block;
+	float: right;
+}
+
+.logo a {
+	display: block;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.banner a {
+	display: block;
+}
+
+.banner {
+	border-bottom: 5px solid #f4f574;
+	padding-top: 130px;
+}
+
+.promo {
+	text-align: center;
+}
+
+.promo img {
+	display: block;
+	margin: auto;
+}
+
+.description {
+	padding-top: 49px;
+}
+
+.description p {
+	margin: 0;
+}
+
+.containeriOS  {
+	margin-top: 58px;
+	margin-bottom: 72px;
+}
+
+h1 {
+	margin: 0;
+	color: #ffff78;
+	text-align: center;
+	line-height: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.iOS {
+	margin-top: 60px;
+	display: inline-block;
+	margin-right: 11px;
+}
+
+.iOS:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.iOS a {
+	display: block;
+}
+
+.iOS img {
+	display: block;
+}
+
+.list ul {
+	list-style: none;
+	margin-top: 48px;
+	list-style-position: outside;
+	margin-bottom: 0;
+}
+
+.list li {
+	position: relative;
+	margin-bottom: 27px;
+	margin-left: 64px; 
+}
+
+.text li::before {
+	content: '';
+	display: block;
+	width: 19px;
+	height: 22px;
+	background-color: #ffff78;
+	position: absolute;
+	list-style-position: outside;
+	margin-right: 27px;
+	left: -76px;
+}
+
+.text li::after {
+	content: '';
+	display: block;
+	width: 7px;
+	height: 4px;
+	background-color: #141b23;
+	position: absolute;
+	left:-71px;
+	top:9px;
+}	
+
+.containerSlider {
+	margin-bottom: 187px;
+}
+
+.slider {
+	height: 223px;
+	background-color: #8e9195;
+	position: relative;
+	margin-top: 65px;
+}
+
+.press {
+	width: 39px;
+	height: 42px;
+	background-color: #ffff78;
+	border-radius: 53%;
+	border: 2px solid #000000;
+	position: absolute;
+}
+
+.first {
+	left:26px;
+	top: 89px;
+}
+
+.second {
+	right:26px;
+	top: 89px;
+}
+
+.slider button::before {
+	content: '<';
+	display: block;
+	width: 16px;
+	height: 16px;
+	font-size: 30px;
+	position: absolute;
+	top:-0.4px;
+}
+
+.slider button.second::before {
+	content: '>';
+	display: block;
+	width: 16px;
+	height: 16px;
+	font-size: 30px;
+	position: absolute;
+	right:7px;
+	top:-0.1px;
+}
+
+.footer {
+	padding-bottom: 57px;
+}
+
+.footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #ffff78;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
