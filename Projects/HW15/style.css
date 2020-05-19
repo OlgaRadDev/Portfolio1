@@ -216,7 +216,7 @@ body {
 	position: relative;
 }
 
-.tile:nth-child(3n) {
+.work:nth-child(3n) {
 	margin-right: 0;
 }
 
